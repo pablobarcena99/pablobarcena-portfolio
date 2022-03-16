@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Rozha+One&display=swap');
+body{
+  background-color: #181818;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+/* font-family: 'Rozha One', serif; */
+h1{
+  font-family: 'Rozha One', serif;
+  color: white;
+  text-align: right;
+  line-height: 40px;
+  font-size: 50px;
+  font-weight: 400;
+  margin: 0;
+}
+h2{
+  font-family: 'Rozha One', serif;
+  color: white;
+  line-height: 40px;
+  font-size: 50px;
+  font-weight: 400;
+  margin: 0;
+  padding-top:20px;
+  text-align: center;
+}
+
+h3{
+  font-family: 'Rozha One', serif;
+  color: white;
+  text-align: right;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+}
+p{
+  font-family: 'Fredoka', sans-serif;
+  color: white;
+  font-size: 30px;
+  margin: 0;
+}
+.page-title{
+  display: flex;
+  align-items: flex-start;
+  padding: 30px;
+  justify-content: space-between;
+  background-color: black;
+}
+.name{
+
+}
+.page-title > img {
+  height: 100px;
+  width: fit-content;
+  border-radius: 50%;
+  border: 4px white solid;
+}
+.info{
+  padding: 30px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+
+}
+.info-card{
+  max-width: 500px;
+  margin: 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card-content{
+  border-radius: 20px;
+  padding: 40px;
+  background-color: #0A66C2;
+  width: 100%;
+  margin-top:20px ;
+}
+.fa-solid{
+  font-size: 40px;
+  color: white;
+}
+.footer{
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  justify-content: center;
+  background-color: white;
+
+}
+.footer > h3{
+  color: #181818;
+  font-size: 30px;
+}
+ul{
+  list-style: none;
+  margin: 0 20px;
+  padding: 0;
+}
+.fa-brands{
+  font-size: 40px;
+  color: black;
+  margin: 8px;
+}
+.fa-github-square:hover{
+color: blueviolet;
+}
+.fa-linkedin:hover{
+color: #0A66C2;
+}
+ li{
+   display: flex;
+   padding: 0;
+ }
+ li:hover > p {
+   color: black;
+ }
+.cards-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90vw;
+}
